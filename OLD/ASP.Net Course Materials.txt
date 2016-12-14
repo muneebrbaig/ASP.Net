@@ -1,0 +1,15 @@
+This file provides you with the how tos and other related info for the course.
+
+Course Videos for reference
+Introduction to ASP.Net Web Forms from Pluralsight
+https://goo.gl/B2cM7t
+
+
+Documentation for: ASP.NET Ajax Version 1.0
+https://goo.gl/h2HQNu
+
+Security, authentication, and authorization topics for ASP.NET 4 and earlier Web Forms applications.
+https://goo.gl/gUXBSj
+
+ASP.NET Login Controls Overview
+https://goo.gl/QMfrWb
