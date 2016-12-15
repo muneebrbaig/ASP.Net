@@ -1,0 +1,290 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+
+<head>
+
+	<!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Scoove responsive website theme</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+
+	<!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="styles/css/base.css" >
+	<link rel="stylesheet" href="styles/css/skeleton.css">
+	                             
+	<link rel="stylesheet" href="styles/css/style.css">
+	<link rel="stylesheet" href="styles/css/skins/blue.css">
+
+	<!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="images/favicon.ico">
+	<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+	
+	
+	<!-- JS
+	================================================== -->
+	<script src="js/jquery-1.7.1.min.js" type="text/javascript"></script>
+	<script src="js/modernizr.js" type="text/javascript"></script>
+	<script src="js/jquery.easing.1.3.js" type="text/javascript"></script>
+	
+	<!-- illuminate -->
+	<script type="text/javascript" src="js/jquery.illuminate.0.7.min.js"></script>
+	
+	<script src="js/custom.js"></script>
+	
+<!-- for live preview -->	
+<script src="js/jquery.cookie.js"></script>
+<link id="css-bg" href="body-options/bg1.css" rel="stylesheet" type="text/css" />
+<script src="js/demosetting.js"></script>
+
+<asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+	
+<div id="wrapper">
+
+	<!-- start of header -->
+	<header>
+	<div class="container">
+		<div class="row clearfix">
+			<div class="four columns">
+				<div class="logo">
+					<img src="images/logo.png" alt="" />
+					<h2>ASP.Net Theme</h2>
+				</div>	
+			</div>
+
+				<nav>
+				  <ul>
+					<li>
+					  <a href="Default.aspx">Home
+					  <span>Homepage</span>
+					  </a>
+					 
+					</li>
+					<li>
+					<a href="#">Pages
+					<span>Examples</span>
+					</a>
+					  <ul>
+						<li><a href="about-us.html">About us</a></li>
+						<li><a href="testimonials.html">Testimonials</a></li>
+						<li><a href="faq.html">F.A.Q</a></li>
+						<li><a href="pricing.html">Pricing table</a></li>
+						<li><a href="404.html">404 page</a></li>
+					  </ul>	
+					</li>
+					<li>
+					<a href="#">Features
+					<span>Scoove themes</span>
+					</a>
+					  <ul>
+						<li><a href="typography.html">Typography</a></li>
+						<li><a href="columns.html">Column layout</a></li>
+						<li><a href="elements.html">Elements</a></li>
+						<li><a href="list-buttons.html">List and buttons</a></li>
+					  </ul>				
+					</li>
+					<li>
+					  <a href="#">Blog
+						<span>Lets write</span>				  
+					  </a>
+					  <ul>
+						<li><a href="blog-left-sidebar.html">Blog left sidebar</a></li>
+						<li><a href="blog-right-sidebar.html">Blog right sidebar</a></li>
+						<li><a href="single-post-left.html">Single post left sidebar</a></li>
+						<li><a href="single-post-right.html">Single post right sidebar</a></li>
+					  </ul>
+					</li>
+					<li>
+					  <a href="#">Portfolio
+					<span>What we've done</span>				  
+					  </a>
+					  <ul>
+						<li><a href="portfolio-detail.html">Portfolio detail</a></li>
+						<li><a href="portfolio-2-cols.html">Portfolio 2 columns</a></li>
+						<li><a href="portfolio-3-cols.html">Portfolio 3 columns</a></li>
+						<li><a href="portfolio-4-cols.html">Portfolio 4 columns</a></li>
+					  </ul>
+					</li>
+					<li class="selected"><a href="contact.html">Contact
+					<span>Message us</span>				
+					</a></li>
+				  </ul>
+				
+	</nav>
+
+		</div>
+	</div>	
+	</header>
+	<!-- end of header -->	
+
+	<div class="container bodycontent">
+
+		<div class="row clearfix">
+			<div class="sixteen columns headline">
+				<h2>Contact page</h2>
+				<p class="italic">You can write any description here or delete if you dont want to use this</p>
+			</div>
+			<!-- end of headline -->
+		</div>	
+		<div class="sixteen columns">
+			<div class="divider row"></div>
+		</div>	
+		
+		<div id="maincontent" class="clearfix">
+		
+        <form id="form2" runat="server">
+    <div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    </form>
+		</div>	
+
+	</div><!-- container -->
+	
+	<!-- start of footer -->	
+	<footer>
+	
+	<!-- start of footer container -->
+	<div class="container">
+	
+		<!-- start of row - 4 widget columns -->
+	    <div class="row clearfix">
+			<div class="eight columns">
+				<h6>About us</h6>
+				<p>
+				Lorem ipsum dolor sit amet, vel aeque veritus noluisse no, id clita praesent qui. At lucilius liberavisse eos, ad doctus civibus mei, quidam numquam pri ut. 
+				</p>
+				<p>
+				Et reque altera cum. Aliquam nominati et vis, fugit dolore voluptaria quo et, eu mea euripidis adipiscing. Aperiri minimum reformidans duo ex, mea id saepe deserunt expetendis
+				</p>
+			</div>
+			<div class="four columns">
+				<h6>Latest posts</h6>
+				<ul class="square">
+					<li><a href="#">Suas unum tincidunt an pre te graeco</a></li>
+					<li><a href="#">Omnes denique vulputate ut sed nar</a></li>
+					<li><a href="#">Vim ad elitr recusabo concludaturque</a></li>
+					<li><a href="#">Appareat molestiae splendide at has</a></li>
+				</ul>	
+			</div>
+			<div class="four columns">
+				<h6>Browse pages</h6>
+				<ul class="square">
+					<li><a href="#">Home</a></li>
+					<li><a href="#">Our services</a></li>
+					<li><a href="#">Terms and conditions</a></li>
+					<li><a href="#">Our projects</a></li>
+				</ul>	
+			</div>
+		</div>
+		<!-- end of row -->
+		
+		<!-- start of row - 4 widget columns -->
+	    <div class="row clearfix">
+			<div class="twelve columns">
+				<h6>Our offices</h6>
+				<div class="four columns alpha">
+					<p><strong class="italic">Jakarta</strong></p>
+					<p>Street 12 Kemacetan suite A.07 No.138 <br />
+						Jakarta, Indonesia 14210
+						</p>
+						<ul class="disc">
+							<li>Phone : +6221 444 022 79</li>				
+							<li>Fax : +6221 444 022 77</li>
+							<li>Email : <a href="#" class="visiblelink">name@websitename.com</a></li>
+						</ul>
+				</div>	
+				
+				<div class="four columns">
+					<p><strong class="italic">Semarang</strong></p>
+					<p>Street 12 Kemacetan suite A.07 No.138 <br />
+						Jakarta, Indonesia 14210
+						</p>
+						<ul class="disc">
+							<li>Phone : +6221 444 022 79</li>				
+							<li>Fax : +6221 444 022 77</li>
+							<li>Email : <a href="#" class="visiblelink">name@websitename.com</a></li>
+						</ul>	
+				</div>	
+				
+				<div class="four columns omega">
+					<p><strong class="italic">Surabaya</strong></p>
+					<p>Street 12 Kemacetan suite A.07 No.138 <br />
+						Jakarta, Indonesia 14210
+						</p>
+						<ul class="disc">
+							<li>Phone : +6221 444 022 79</li>				
+							<li>Fax : +6221 444 022 77</li>
+							<li>Email : <a href="#" class="visiblelink">name@websitename.com</a></li>
+						</ul>		
+				</div>
+			</div>
+
+			<div class="four columns">
+				<div class="logo">
+					<img src="images/logo.png" alt="" />
+					<h2>The responsive website theme</h2>
+				</div>
+				<h6>Social networks</h6>
+
+							<ul class="social_network">
+								<li class="rollover"><a href="#" class="yellowtip" title="Facebook"><span class="fb-rollover"></span><img src="images/social/fb.png" alt="" /></a></li>
+								<li class="rollover"><a href="#" class="yellowtip" title="Follow us"><span class="twitter-rollover"></span><img src="images/social/twitter.png" alt="" /></a></li>
+								<li class="rollover"><a href="#" class="yellowtip" title="Google plus"><span class="google-rollover"></span><img src="images/social/google-plus.png" alt="" /></a></li>
+								<li class="rollover"><a href="#" class="yellowtip" title="Flickr"><span class="flickr-rollover"></span><img src="images/social/flickr.png" alt="" /></a></li>		
+							</ul>				
+			</div>
+		</div>
+		<!-- end of row -->
+
+		<!-- start of footer divider -->
+		<div class="sixteen columns">
+			<div class="footer-divider row"></div>
+		</div>	
+		<!-- end of footer divider -->
+		
+		<!-- start of bottoms -->
+		<div class="clearfix footnote">
+			<div class="eight columns">
+				<p class="copyright">Copyright &copy; 2012 - Scoove - All Right Reserved</p>
+			</div>
+			<div class="eight columns">
+				<p class="align-right">Designed by <a href="http://iweb-studio.com/" target="_blank">iwebstudio</a></p>
+			</div>
+		</div>
+		<!-- end of bottoms -->
+
+	</div>
+	<!-- end of footer container -->
+	</footer>
+	<!-- end of footer -->		
+
+</div>
+	<p id="back-top">
+		<a href="#top"><span></span>To top</a>
+	</p>
+</body>
+
+</html>
