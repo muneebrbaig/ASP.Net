@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AjaxPageMethods", "AjaxPageMethods\AjaxPageMethods.csproj", "{4BD88B59-27C4-4934-A7FC-0EEE010B4092}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServicesAndAjax", "WebServicesAndAjax\WebServicesAndAjax.csproj", "{31F0098F-C8FD-4497-AD83-4F0E161966FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4BD88B59-27C4-4934-A7FC-0EEE010B4092}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BD88B59-27C4-4934-A7FC-0EEE010B4092}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BD88B59-27C4-4934-A7FC-0EEE010B4092}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BD88B59-27C4-4934-A7FC-0EEE010B4092}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31F0098F-C8FD-4497-AD83-4F0E161966FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31F0098F-C8FD-4497-AD83-4F0E161966FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31F0098F-C8FD-4497-AD83-4F0E161966FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31F0098F-C8FD-4497-AD83-4F0E161966FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
