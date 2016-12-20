@@ -30,6 +30,18 @@ namespace AjaxPageMethods
                 DateTime.Now);
     }
 
+    /// <summary>
+    /// Exposing Web Services to Client Script
+    ///  https://goo.gl/6s5roc
+    /// </summary>
+    /// <param name="input"></param>
+    /// <returns></returns>
+    [WebMethod]
+    public string EchoInput(string input)
+    {
+      // Method code goes here.
+      return input + "<br>" + DateTime.Now;
+    }
 
   }
 }
