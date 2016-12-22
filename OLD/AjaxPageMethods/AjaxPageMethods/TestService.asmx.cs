@@ -78,13 +78,13 @@ namespace AjaxPageMethod
             // Method code goes here.
             return input + "<br>" + DateTime.Now;
         }
-        /*
+        
         [WebMethod]
         public string SearchData(string search) 
         {
 
             List<string> lstData = GetProductsList();
-            List<string> result = lstData.Reverse();
+            var result = lstData.Where(s=>s.Contains(search));
             string output = "<ul>";
             foreach (string s in result)
             {
@@ -95,7 +95,7 @@ namespace AjaxPageMethod
             output += "</ul>";
 
             return output;        
-        }*/
+        }
 
     }
 }
