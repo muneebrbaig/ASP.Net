@@ -41,7 +41,7 @@
             Server Time</h2>
         <p>
             Calling a service that returns the current server time.</p>
-        <input id="GetData" type="button" value="Get Data" onclick="GetData()" />
+        <input id="GetDataBtn" type="button" value="Get Data" onclick="GetData()" />
         <br />
         <asp:Button ID="Button1" runat="server" Text="OK" OnClick="Button1_Click" />
         <br />
