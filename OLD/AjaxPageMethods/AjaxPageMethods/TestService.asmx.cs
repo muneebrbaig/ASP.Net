@@ -30,7 +30,14 @@ namespace AjaxPageMethod
             //for (int x = 1; x <= 10; x++)
             //    output += "<li>" + x + "</li>";
             output += "</ul>";
-
+            /* string output = "<select>";
+            foreach (string s in lstData)
+            {
+                output += "<option>" + s + "</option>";
+            }
+            //for (int x = 1; x <= 10; x++)
+            //    output += "<li>" + x + "</li>";
+            output += "</select>";*/
             return output;
         }
 
