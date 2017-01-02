@@ -1,0 +1,67 @@
+﻿
+@{
+  ViewBag.Title = "Loops";
+
+}
+
+<div class="row">
+
+
+  <div class="col-md-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h5> While</h5>
+      </div>
+      <div class="panel-body ">
+        @{
+          var b = 0;
+          while (b < 7)
+          {
+            b += 1;
+            <p>Value of b is @b</p>
+          }
+        }
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-info">
+      <div class="panel-heading">
+        <h5> For</h5>
+      </div>
+      <div class="panel-body ">
+        <ul>
+          @{
+            for (int i = 0; i < 10; i++)
+            {
+              <li> value of  i @i </li>
+            }
+          }
+        </ul>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-warning">
+      <div class="panel-heading">
+        <h5> For Each</h5>
+      </div>
+      <div class="panel-body ">
+        <select class="form-control">
+          @{
+            var products = new[] { "Laptop", "Desktop", "Printer" };
+            foreach (var product in products)
+            {
+              <option>@product</option>
+            }
+          }
+        </select>
+      </div>
+    </div>
+
+  </div>
+</div>

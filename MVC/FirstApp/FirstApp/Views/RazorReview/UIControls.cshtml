@@ -1,0 +1,68 @@
+﻿@model dynamic
+
+@{
+  ViewBag.Title = "UI Controls";
+}
+<div class="row">
+  <div class="col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h5> Control Creation Helper Methods</h5>
+      </div>
+      <div class="panel-body ">
+        <ul>
+          <li> Html.ActionLink()                                         </li>
+          <li> Html.BeginForm() and Html.EndForm()         </li>
+          <li> Html.Label()                                                 </li>
+          <li> Html.TextBox()                                             </li>
+          <li> Html.TextArea()                                           </li>
+          <li> Html.Password()                                           </li>
+          <li> Html.CheckBox()                                           </li>
+        </ul>
+      </div>
+    </div>
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h5> Points to Remember :</h5>
+      </div>
+      <div class="panel-body ">
+        <pre>
+Use @@ to write server side code.
+Server side code block starts with @@{* code * }
+Use @@: or &lt;text&gt;&lt;/text&gt; to display text from code block.
+if condition starts with @@if{ }
+for loop starts with @@for
+@@model allows you to use model object anywhere in the view.
+</pre>
+      </div>
+    </div>
+
+  </div>
+
+  <div class="col-md-4">
+    <div class="panel panel-primary">
+      <div class="panel-heading">
+        <h5> Form</h5>
+      </div>
+      <div class="panel-body ">
+        @{Html.BeginForm("UIControls", "RazorReview");}
+        @Html.Label("User Name:")<br />
+        @Html.TextBox("textBox1", null, new { @class = "form-control" })<br />
+        @Html.Label("Address:")<br />
+        @Html.TextArea("textarea1", new { @class = "form-control" })<br /><br />
+        @Html.Label("Password:")<br />@Html.Password("password", null, new { @class = "form-control" })<br /><br />
+        @Html.Label("I need updates on my mail: ")
+        @Html.CheckBox("checkbox1", false, new { @class = "  checkbox-inline" })<br /> <br />
+        @Html.Label("Select your city:") @Html.DropDownList("myList",
+            new SelectList(new[] { "Karachi", "Islamabad", "Lahore" }), "Choose", new { @class = "form-control" }) <br /><br />
+        Male @Html.RadioButton("Gender", "Male", true)<br />
+        Female @Html.RadioButton("Gender", "Female")<br /> <br />
+
+        <input type="submit" value="Submit" class="btn btn-danger pull-right">
+        @{Html.EndForm();}
+      </div>
+    </div>
+
+  </div>
+
+</div>

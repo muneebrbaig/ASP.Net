@@ -1,0 +1,14 @@
+﻿@model dynamic
+
+@{
+  ViewBag.Title = "Products";
+  var products = new[] { "Laptop", "Desktop", "Printer" };
+}
+
+<h2>Products</h2>
+@foreach (var product in products)
+{
+  @product
+  <br>
+}
+

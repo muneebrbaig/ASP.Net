@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbInteraction", "DbInteraction\DbInteraction.csproj", "{2A78F28B-29DA-4437-B266-312DE76A02F7}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FirstApp", "FirstApp\FirstApp.csproj", "{8441063F-06F4-4120-88A0-213F104BCA64}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A78F28B-29DA-4437-B266-312DE76A02F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A78F28B-29DA-4437-B266-312DE76A02F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A78F28B-29DA-4437-B266-312DE76A02F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A78F28B-29DA-4437-B266-312DE76A02F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8441063F-06F4-4120-88A0-213F104BCA64}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8441063F-06F4-4120-88A0-213F104BCA64}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8441063F-06F4-4120-88A0-213F104BCA64}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8441063F-06F4-4120-88A0-213F104BCA64}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
