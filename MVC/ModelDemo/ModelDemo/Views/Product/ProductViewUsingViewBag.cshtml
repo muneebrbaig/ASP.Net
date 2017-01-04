@@ -1,0 +1,32 @@
+﻿@model dynamic
+
+@{
+  ViewBag.Title = "Product View Using View Bag";
+
+}
+<div class="row">
+  <div class="col-md-4">
+    <div class="panel panel-success">
+      <div class="panel-heading">
+        <h3 class="panel-title">Product View Using View Bag</h3>
+      </div>
+      <div class="panel-body">
+
+        <table class="table table-striped">
+          <tr>
+            <td>Id</td>
+            <td>@ViewBag.Product.Id</td>
+          </tr>
+          <tr>
+            <td>Name</td>
+            <td>@ViewBag.Product.Name</td>
+          </tr>
+          <tr>
+            <td>Price</td>
+            <td>@ViewBag.Product.Price</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+  </div>
+</div>
