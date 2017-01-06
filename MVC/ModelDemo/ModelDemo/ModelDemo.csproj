@@ -122,6 +122,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ProductController.cs" />
+    <Compile Include="Controllers\ProductReadWriteController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -166,6 +167,11 @@
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Product\ProductViewUsingViewBag.cshtml" />
     <Content Include="Views\Product\AllProducts.cshtml" />
+    <Content Include="Views\ProductReadWrite\Index.cshtml" />
+    <Content Include="Views\ProductReadWrite\Details.cshtml" />
+    <Content Include="Views\ProductReadWrite\Create.cshtml" />
+    <Content Include="Views\ProductReadWrite\Edit.cshtml" />
+    <Content Include="Views\ProductReadWrite\Delete.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
