@@ -20,3 +20,8 @@ select>option#item-$*3
 ul+
 table+
 div#page>div.logo+ul#navigation>li*5>a
+
+lorem
+lorem2
+lorem3
+lorem*4
