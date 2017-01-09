@@ -1,0 +1,22 @@
+div#name
+div.name
+div.one.two
+
+
+table>tr>td
+ul#name>li.item
+ p.one+p.two
+p[title]
+
+a[href=google.com]
+
+ p*3
+
+table>tr>td*3
+
+p.name-$*3
+select>option#item-$*3
+
+ul+
+table+
+div#page>div.logo+ul#navigation>li*5>a
