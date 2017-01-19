@@ -10,26 +10,66 @@
 	<script src="Scripts/jquery-1.9.1.js"></script>
 </head>
 <body>
-<div class="row">
-	<div class="col-md-offset-4  col-md-4">
-		<div class="panel panel-success">
-			<div class="panel-heading">
-				<h3 class="panel-title">Javascript Calculator</h3>
-			</div>
-			<div class="panel-body">
-				<div class="row">
-					<div class="col-md-6">
-						<input type="text" value="" id="no1" class="form-control" />
-					</div>
-					<div class="col-md-6">
-						<input type="text" value="" id="no2" class="form-control" />
-					</div>
-				</div>
-				<hr/>
 
-			</div>
-		</div>
-	</div>
-</div>
+    <div class="row ">
+        <div class="col-md-offset-4 col-md-4">
+            <div class="panel panel-success">
+                <div class="panel-heading">
+                    <h3 class="panel-title text-center">JavaScript Calculator</h3>
+                </div>
+                <div class="panel-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <input type="text" value="" id="no1" class="form-control text-right"  placeholder="Number 1" />
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" value="" id="no2" class="form-control text-right" placeholder="Number 2" />
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="row ">
+                        <div class="col-md-offset-3 col-md-6">
+                            <div class="btn-toolbar ">
+                                <div class="btn-group btn-group-justified">
+                                    <a href="#" class="btn btn-primary" id="btnAdd" onclick="Add();">+</a>
+                                    <a href="#" class="btn btn-info" id="btnSub" onclick="Sub();">-</a>
+                                    <a href="#" class="btn btn-warning" id="btnMult" onclick="Mult();">x</a>
+                                    <a href="#" class="btn btn-danger" id="btnDiv" onclick="Div();">/</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <input type="text" value="" id="result" class="form-control disabled text-right" placeholder="Result" disabled="disabled" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function Add() {
+            var op1 = Number($("#no1").val());
+            var op2 = Number($("#no2").val());
+
+            $("#result").val(op1 + op2);
+        }
+        function Sub() {
+            var op1 = Number($("#no1").val());
+            var op2 = Number($("#no2").val());
+
+            $("#result").val(op1 - op2);
+        }
+        function Mult() {
+            var op1 = Number($("#no1").val());
+            var op2 = Number($("#no2").val());
+
+            $("#result").val(op1 * op2);
+        }
+        function Div() {
+            var op1 = Number($("#no1").val());
+            var op2 = Number($("#no2").val());
+
+            $("#result").val(op1 / op2);
+        }
+    </script>
 </body>
 </html>
