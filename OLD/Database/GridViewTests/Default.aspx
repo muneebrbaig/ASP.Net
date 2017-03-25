@@ -7,7 +7,7 @@
    
 
     <asp:Button ID="btnLoad" CssClass="btn btn-danger" runat="server" onclick="btnLoad_Click" Text="Load" />
-    <input id="Button1" class="gradientbtn gradientbtn-purple&quot;" type="button" 
+    <input id="Button1" class="gradientbtn gradientbtn-purple" type="button" 
         value="button" /><br />
     <div class="table table-striped">
     

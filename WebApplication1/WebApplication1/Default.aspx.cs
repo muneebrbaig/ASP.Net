@@ -9,13 +9,17 @@ namespace WebApplication1
 {
 	public partial class _Default : Page
 	{
+		 
 		const int PERCENT = 17;
 
 		protected void Page_Load(object sender, EventArgs e)
 		{
-
+			
 		}
-
+		/// <summary>
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e"></param>
 		protected void submit_Click(object sender, EventArgs e)
 		{
 			int salary =Convert.ToInt32(txtSalary.Text);
@@ -28,6 +32,7 @@ namespace WebApplication1
 
 		int CalculateSalary(int s, int t)
 		{
+			
 			var taxable = t * s / 100;
 			var ns = s - taxable;
 			return ns;

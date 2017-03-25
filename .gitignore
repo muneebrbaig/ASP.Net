@@ -251,3 +251,6 @@ paket-files/
 .idea/
 *.sln.iml
 /SecurityAccount
+/Html5Controls
+/MVC01
+/YetAnotherFirstApplication
